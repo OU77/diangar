@@ -1,0 +1,328 @@
+
+body{
+    background-color: white; font-size: 12pt; color:black;
+    padding: 80px;
+    margin: 80px;
+    border-radius: 20px;
+}
+
+
+h1{  
+    font-family:'Times New Roman', Times, serif;
+    font-size:35pt;
+    text-align:center;
+    text-shadow: 2px 3px 5px blue;
+    box-shadow: 2px 3px 5px blue;
+}
+
+
+#h1{
+	font-size: 28px;
+	margin: 20px 0px 0px 0px
+}
+
+h2[id^="titre"]{
+    background-color:rgb(236, 135, 18);
+    margin-top:0px;
+    padding-left:15px;
+    padding-bottom:5px;
+    padding-top:5px;
+    border-top-left-radius:20pt;
+    border-top-right-radius:20pt;
+}
+
+h3{
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#h3-1{
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#h3-2{
+    color: blue;
+}
+
+/*****************************************************************************************************************/
+
+div.identite{
+    border-radius:20pt 20pt;
+    border:1px solid blue;
+    margin-bottom:30px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+div.formation, div.diplome, div.experience, div.divers{
+    border-radius:20pt 20pt;
+    border:1px solid blue;
+    margin-bottom:30px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+
+ul>li{
+    color:blue;
+    font-weight:bold;  
+    font-size:20px;
+}
+li>span{
+    font-weight:normal;
+    color:black;
+}
+
+
+/*****************************************************************************************************************/
+
+#photo{
+    position:absolute;
+    right:160px;
+    border-width:1px;
+    border-style:dashed;
+    border-top-right-radius:20pt 20pt;
+    width:205px;
+}
+
+#photo2{
+    position:absolute;
+    right:165px;
+    border-width:1px;
+    border-top-right-radius:20pt 20pt;
+    width:305px;
+}
+
+#photo3{
+
+    position:absolute;
+    right:165px;
+    border-width:1px;
+    width:305px;
+    margin-top: 60px;
+}
+   
+#photo4{
+    position:absolute;
+    right:160px;
+    border-width:1px;
+    border-top-right-radius:20pt 20pt;
+    width:258px;
+}
+
+#im{ 
+    border-width:1px;
+    border-radius: 20pt 20pt ;
+    width:508px;
+}
+
+#IM{ 
+    right:165px;
+    border-width:1px;
+    width:165px;
+}
+
+
+#img1{
+	position:absolute;
+    right:160px;
+    border-width:1px;
+    border-radius:20pt 20pt;
+    width:240px;
+}
+
+
+#img2{
+	position:absolute;
+    right:165px;
+    border-width:1px;
+    border-radius:20pt 20pt;
+    width:225px;
+}
+
+/*****************************************************************************************************************/
+
+
+.orange{
+    border-radius:20pt 20pt;
+	border-top: 10px solid orange;
+	background-color: rgba(250, 160, 57, 0.15);
+    margin-top: 30px;
+}
+
+.vert{
+    border-radius:20pt 20pt;
+	border-top: 10px solid #5f6;
+	background-color: rgba(15, 240, 30, 0.15);
+    margin-top: 30px;
+}
+.bleu{
+    border-radius:20pt 20pt;
+	border-top: 10px solid #29c;
+	background-color: rgba(11, 160, 160, 0.15);
+    margin-top: 30px;
+}
+.jaune{
+    border-radius:20pt 20pt;
+	border-top: 10px solid #f3e241;
+	background-color: rgba(212, 224, 79, 0.15);
+    margin-top: 30px;
+}
+
+/*****************************************************************************************************************/
+
+
+nav{
+	width: 100%;
+	background-color: #424558;
+}
+nav ul{
+	margin: 0px;
+	padding: 0px;
+}
+nav li{
+	list-style-type: none;
+	float: left;
+}
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 20px 30px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+
+/*****************************************************************************************************************/
+
+.table{
+	display: table;
+	margin: 0 auto;
+}
+
+
+.menu-ind:hover, .Presentation{
+	border-top: 5px solid blue;
+	background-color:rgb(236, 135, 18);
+}
+.menu-exp:hover, .Parcours{
+	border-top: 5px solid blue;
+	background-color:rgb(236, 135, 18);
+}
+.menu-hob:hover, .Langue{
+	border-top: 5px solid blue;
+	background-color:rgb(236, 135, 18);
+}
+.menu-con:hover, .Divers{
+	border-top: 5px solid blue;
+	background-color:rgb(236, 135, 18);
+}
+
+
+a:hover{
+	font-size: 1.2em;
+}
+
+
+/*****************************************************************************************************************/
+
+section{
+	width: 100%;
+	min-height: 300px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+
+.bor{
+	border: 8px solid #3a3822;
+    border-radius: 20px;
+	padding: 50px;
+	margin: 5px 300px 25px 0px;
+	color: #251625
+}
+
+
+
+textarea{
+	width:280px;
+	height: 200px;
+	background-color: rgb(218, 231, 231);
+}
+
+
+
+footer{
+	height: 80px;
+	padding-top: 30px;
+	text-align: center;
+	background-color: #584141;
+	border-top: 20px solid #aaa;
+	font-size: 20px;
+	color: rgb(231, 216, 216);
+}
+
+/*****************************************************************************************************************/
+
+.left{
+
+    position:left;
+    right:165px;
+    border-width:1px;
+    border-style:dashed;
+    border-radius:20pt 20pt;
+    width:65px;
+}
+
+.right{
+	position:absolute;
+    right:65px;
+    border-width:1px;
+    border-style:dashed;
+    border-radius:20pt 20pt;
+    width:205px;
+}
+
+.center{
+	position:absolute;
+    right:5px;
+    border-width:1px;
+    border-style:dashed;
+    border-radius:20pt 20pt;
+    width:205px;
+}
+
+/*****************************************************************************************************************/
+
+@media screen and (max-width: 780px){
+	header{
+		height: 50px;
+	}
+	h1{
+		font-size: 28px;
+		margin: 20px 0px 0px 0px
+	}
+	nav li a{
+		font-size: 12px;
+		padding: 10px;
+	}
+	nav li:hover a{
+		padding: 5px 10px 10px 10px;
+	}
+}
+
+/*****************************************************************************************************************/
+/*****************************************************************************************************************/
+/*****************************************************************************************************************/
+
+
+
+
+
+
+
