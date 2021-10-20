@@ -1,11 +1,10 @@
 
 body{
     background-color: white; font-size: 12pt; color:black;
-    padding: 80px;
-    margin: 80px;
+    padding: 70px;
+    margin: 70px;
     border-radius: 20px;
 }
-
 
 h1{  
     font-family:'Times New Roman', Times, serif;
@@ -18,11 +17,18 @@ h1{
 
 #h1{
 	font-size: 28px;
-	margin: 20px 0px 0px 0px
+	margin: 20px 0px 0px 0px;
 }
 
+#h1:hover{
+	font-size: 30px;
+	margin: 20px 0px 0px 0px;
+    background-color: chartreuse;
+}
+
+
 h2[id^="titre"]{
-    background-color:rgb(236, 135, 18);
+    background-color:rgb(252, 138, 8);
     margin-top:0px;
     padding-left:15px;
     padding-bottom:5px;
@@ -53,14 +59,23 @@ h3{
 
 div.identite{
     border-radius:20pt 20pt;
-    border:1px solid blue;
+    border:2px solid blue;
     margin-bottom:30px;
     margin-top: 30px;
     font-size: 20px;
 }
 div.formation, div.diplome, div.experience, div.divers{
     border-radius:20pt 20pt;
-    border:1px solid blue;
+    border:2px solid blue;
+    margin-bottom:30px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+div.identite:hover, div.formation:hover, div.diplome:hover, div.experience:hover, div.divers:hover{
+    color: rgb(240, 6, 6);
+    border-radius:20pt 20pt;
+    border:2px solid rgb(228, 81, 13);
     margin-bottom:30px;
     margin-top: 30px;
     font-size: 20px;
@@ -82,16 +97,25 @@ li>span{
 
 #photo{
     position:absolute;
-    right:160px;
+    right:140px;
     border-width:1px;
     border-style:dashed;
     border-top-right-radius:20pt 20pt;
-    width:205px;
+    width:208px;
+}
+
+#photo1{
+    position:absolute;
+    right:150px;
+    border-width:1px;
+    border-top-right-radius:20pt 20pt;
+    width:305px;
+    margin-top: 45px;
 }
 
 #photo2{
     position:absolute;
-    right:165px;
+    right:155px;
     border-width:1px;
     border-top-right-radius:20pt 20pt;
     width:305px;
@@ -100,7 +124,7 @@ li>span{
 #photo3{
 
     position:absolute;
-    right:165px;
+    right:150px;
     border-width:1px;
     width:305px;
     margin-top: 60px;
@@ -108,10 +132,10 @@ li>span{
    
 #photo4{
     position:absolute;
-    right:160px;
+    right:140px;
     border-width:1px;
     border-top-right-radius:20pt 20pt;
-    width:258px;
+    width:300px;
 }
 
 #im{ 
@@ -129,16 +153,15 @@ li>span{
 
 #img1{
 	position:absolute;
-    right:160px;
-    border-width:1px;
+    right:150px;
     border-radius:20pt 20pt;
-    width:240px;
+    width:160px;
 }
 
 
 #img2{
 	position:absolute;
-    right:165px;
+    right:140px;
     border-width:1px;
     border-radius:20pt 20pt;
     width:225px;
@@ -242,19 +265,37 @@ section{
 .bor{
 	border: 8px solid #3a3822;
     border-radius: 20px;
-	padding: 50px;
+	padding: 80px;
+	margin: auto;
+	color: #251625
+}
+
+.bor1{
+	border: 2px solid #3a3822;
+    border-radius: 20px;
+	padding: 60px;
 	margin: 5px 300px 25px 0px;
 	color: #251625
 }
 
-
-
-textarea{
-	width:280px;
-	height: 200px;
-	background-color: rgb(218, 231, 231);
+.bor2{
+	border: 4px solid #3a3822;
+    border-radius: 20px;
+	padding: 20px;
+	margin: auto;
+	color: #251625;
+    text-align: center;
 }
 
+.bor2:hover{
+	border: 4px solid #3a3822;
+    border-radius: 20px;
+	padding: 20px;
+	margin: auto;
+	color: #251625;
+    text-align: center;
+    background-color: rgb(162, 251, 72);
+}
 
 
 footer{
@@ -265,6 +306,16 @@ footer{
 	border-top: 20px solid #aaa;
 	font-size: 20px;
 	color: rgb(231, 216, 216);
+}
+
+footer:hover{
+    height: 80px;
+	padding-top: 30px;
+	text-align: center;
+	background-color: #460505;
+	border-top: 20px solid rgb(228, 140, 140);
+	font-size: 20px;
+	color: rgb(246, 249, 250);
 }
 
 /*****************************************************************************************************************/
@@ -298,22 +349,195 @@ footer{
 }
 
 /*****************************************************************************************************************/
+/*****************************************************************************************************************/
+/*****************************************************************************************************************/
+
+
 
 @media screen and (max-width: 780px){
-	header{
-		height: 50px;
-	}
+
+
 	h1{
-		font-size: 28px;
-		margin: 20px 0px 0px 0px
+		font-size: 15px;
 	}
-	nav li a{
-		font-size: 12px;
-		padding: 10px;
-	}
-	nav li:hover a{
-		padding: 5px 10px 10px 10px;
-	}
+
+    #h1, #h1:hover, h3, #h3-1{
+        font-size: 10px;
+    }
+
+    h2[id^="titre"]{
+        background-color:rgb(252, 138, 8);
+        margin-top:0px;
+        padding-left:8px;
+        padding-bottom:3px;
+        padding-top:3px;
+        border-top-left-radius:10pt;
+        border-top-right-radius:10pt;
+    }
+
+    div.identite{
+        border-radius:10pt 10pt;
+        border:2px solid blue;
+        margin-bottom:15px;
+        margin-top: 15px;
+        font-size: 10px;
+    }
+    div.formation, div.diplome, div.experience, div.divers{
+        border-radius:10pt 10pt;
+        border:2px solid blue;
+        margin-bottom:15px;
+        margin-top: 15px;
+        font-size: 10px;
+    }
+
+    div.identite:hover, div.formation:hover, div.diplome:hover, div.experience:hover, div.divers:hover{
+        color: rgb(240, 6, 6);
+        border-radius:10pt 10pt;
+        border:2px solid rgb(228, 81, 13);
+        margin-bottom:15px;
+        margin-top: 15px;
+        font-size: 10px;
+    }
+    
+    
+    ul>li{
+        color:blue;
+        font-weight:bold;  
+        font-size:10px;
+    }
+
+    /*****************************************************************************************************************/
+
+    #photo{
+        position:absolute;
+        right:140px;
+        border-width:1px;
+        border-style:dashed;
+        border-top-right-radius:10pt 10pt;
+        width:104px;
+    }
+
+    #photo1{
+        position:absolute;
+        right:145px;
+        border-width:1px;
+        border-top-right-radius:10pt 10pt;
+        width:153px;
+        margin-top: 25px;
+    }
+
+    #photo2{
+        position:absolute;
+        right:150px;
+        border-width:1px;
+        border-top-right-radius:10pt 10pt;
+        width:153px;
+    }
+
+    #photo3{
+
+        position:absolute;
+        right:142px;
+        border-width:1px;
+        width:140px;
+        margin-top: 45px;
+    }
+    
+    #photo4{
+        position:absolute;
+        right:140px;
+        border-width:1px;
+        border-top-right-radius:10pt 10pt;
+        width:150px;
+        border-style:dashed;
+    }
+
+    #im{ 
+        border-width:1px;
+        border-radius: 10pt 10pt ;
+        width:110px;
+    }
+
+
+    #img1{
+        position:absolute;
+        right:148px;
+        border-radius:5pt 5pt;
+        width:60px;
+    }
+
+
+    #img2{
+        position:absolute;
+        right:140px;
+        border-width:1px;
+        border-radius:5pt 5pt;
+        width:90px;
+    }
+
+    /*****************************************************************************************************************/
+
+    nav a{
+        padding: 10px 15px;
+        font-size: 5px;
+    }
+
+
+    a:hover{
+        font-size: 0.6em;
+    }
+
+
+    /*****************************************************************************************************************/
+
+    section{
+        width: 100%;
+        min-height: 100px;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+    }
+
+
+    .bor{
+        border: 4px solid #3a3822;
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+    .bor1{
+        border: 1px solid #3a3822;
+        border-radius: 10px;
+        padding: 30px;
+        margin: 2px 100px 12px 0px;
+    }
+
+    .bor2{
+        border: 2px solid #3a3822;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .bor2:hover{
+        border: 4px solid #3a3822;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+
+    footer{
+        height: 40px;
+        padding-top: 15px;
+        border-top: 10px solid #aaa;
+        font-size: 10px;
+    }
+
+    footer:hover{
+        height: 40px;
+        padding-top: 15px;
+        border-top: 10px solid #aaa;
+        font-size: 10px;
+    }
+
 }
 
 /*****************************************************************************************************************/
